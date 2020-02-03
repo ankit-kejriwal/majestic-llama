@@ -1,6 +1,6 @@
 .logo {
-    color: #ffffff;
-    border-right: 1px solid #fff;
+    color: #000000;
+    border-right: 1px solid #000;
     padding-right: 20px;
 }
 .main-nav {
@@ -9,17 +9,17 @@
 .navbar-nav.left {
     .nav-link {
         padding: 8px 15px;
-        color: #fff;
+        color: #000;
     }
 }
-.bgc-dark {
-    background-color: #51a1ba !important;
-    border-bottom: 1px solid #51a1ba;
+.bg-light {
+    background-color: #fff !important;
+    border-bottom: 1px solid rgb(230, 230, 230);
 }
 .navbar-nav.right {
     li {
         span, a {
-            color: #fff;
+            color: #000;
             margin: 0 10px;
             cursor: pointer;
         }
