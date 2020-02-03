@@ -1,0 +1,27 @@
+.logo {
+    color: #ffffff;
+    border-right: 1px solid #fff;
+    padding-right: 20px;
+}
+.main-nav {
+    padding: 3px 15px;
+}
+.navbar-nav.left {
+    .nav-link {
+        padding: 8px 15px;
+        color: #fff;
+    }
+}
+.bgc-dark {
+    background-color: #51a1ba !important;
+    border-bottom: 1px solid #51a1ba;
+}
+.navbar-nav.right {
+    li {
+        span, a {
+            color: #fff;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+    }
+}

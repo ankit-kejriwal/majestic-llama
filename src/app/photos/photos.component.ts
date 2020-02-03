@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CommonService } from '../common.service';
 
 @Component({
   selector: 'app-photos',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PhotosComponent implements OnInit {
 
-  constructor() { }
-
+  imageLists: string[];
+  constructor(private cs: CommonService) { }
   ngOnInit() {
+    this.imageLists = this.cs.getImageList();
   }
 
 }

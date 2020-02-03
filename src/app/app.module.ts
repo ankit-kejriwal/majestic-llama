@@ -7,6 +7,7 @@ import { HeaderComponent } from './global/components/header/header.component';
 import { HomeComponent } from './home/home.component';
 import { PhotosComponent } from './photos/photos.component';
 import { VideosComponent } from './videos/videos.component';
+import { CommonService } from './common.service';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,9 @@ import { VideosComponent } from './videos/videos.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    CommonService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

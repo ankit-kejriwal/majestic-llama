@@ -1,1 +1,19 @@
-<p>header works!</p>
+<nav class="main-nav navbar navbar-expand-lg navbar-dark bgc-dark">
+    <span class="logo">Logo</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropdown" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarDropdown">
+        <ul class="navbar-nav left mr-auto">
+            <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
+                <a class="nav-link" [routerLink]="['/home']">Home</a>
+            </li>
+            <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
+                <a class="nav-link" [routerLink]="['/photos']">Photo Gallery</a>
+            </li>
+            <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
+                <a class="nav-link" [routerLink]="['/videos']">Video Gallery</a>
+            </li>
+        </ul>
+    </div>
+</nav>
