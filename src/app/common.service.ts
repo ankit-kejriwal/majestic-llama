@@ -46,14 +46,27 @@ export class CommonService {
     const videoList = [
       'https://media0.giphy.com/media/zxt9AHjMEOtGM/source.gif',
       'https://media3.giphy.com/media/3o6gb7ttGsXqohupz2/giphy.gif',
+      'https://media.giphy.com/media/JdO0Hhia9zcU8/giphy.gif',
+      'https://i.pinimg.com/originals/e8/8a/34/e88a34f2db1edc2c26ec36d09f39f4f0.gif',
       'https://media0.giphy.com/media/26AHN1RF9GewMA9Da/giphy.gif',
+      'https://media1.giphy.com/media/26tPkf2YDkNjofWxO/giphy.gif',
       'https://media.giphy.com/media/SMBkVjfuRVFhS/giphy.gif',
+      'https://i.makeagif.com/media/6-17-2014/Ih3nVG.gif',
+      'https://thumbs.gfycat.com/OnlyDisloyalHare-size_restricted.gif',
+      'https://media3.giphy.com/media/b6Jt4ckHVgoRq/giphy.gif',
       'https://media1.tenor.com/images/e6cc5e537044d4e8b39210b5de4e8b31/tenor.gif?itemid=8834856',
       'https://media0.giphy.com/media/wJrwNhcMwnCBk1fEEU/giphy.gif',
       'https://media1.giphy.com/media/i68Balzk8Fewg/giphy.gif',
       'https://media1.giphy.com/media/xT1XGDKwOxacd92rYI/giphy.gif',
       'https://media1.giphy.com/media/1081l2F7uGjkK4/giphy.gif',
       'https://media3.giphy.com/media/RzTEfgUMbhjzi/source.gif',
+      'https://media3.giphy.com/media/JuvQ6Lh4OiEiQ/giphy.gif',
+      'https://media3.giphy.com/media/oaYRBVLTgPtjG/giphy.gif',
+      'https://media2.giphy.com/media/d5Iwo02eZiaEE/giphy.gif',
+      'https://i.makeagif.com/media/2-06-2016/g-0cw9.gif',
+      'https://i.chzbgr.com/full/7762262016/hA43CB4FD/this-is-my-humanget-your-own',
+      'https://media3.giphy.com/media/3ohhwmQFwW2xfc4DXq/giphy.gif',
+      'https://media0.giphy.com/media/26AHN1RF9GewMA9Da/giphy.gif'
     ];
     return videoList;
   }
