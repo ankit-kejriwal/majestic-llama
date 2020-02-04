@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; font-src 'self' data: fonts.gstatic.com;">
+  <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline';font-src 'self' data: fonts.gstatic.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://cdnjs.cloudflare.com ">
+  <!-- <meta http-equiv="Content-Security-Policy" content="img-src 'self' data:;default-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self' data: fonts.gstatic.com;"> -->
   <title>MajesticLlama</title>
   <base href="/">
 
@@ -12,5 +13,5 @@
 <body>
   <app-root></app-root>
 </body>
-<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
 </html>
